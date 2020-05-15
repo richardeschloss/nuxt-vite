@@ -26,6 +26,9 @@
 
 > npm run dev:vite
 
+NUXT will be running on port 3000. http://localhost:3000
+Vite will be on port 3001. http://localhost:3001
+
 ## Usage:
 
 Just edit your Nuxt stuff like you normally do! pages, components, assets, static files. They're all sym linked to the vite project! So what you do in Nuxt will mostly be seen in Vite. However, what's not in the Vite repo is the Nuxt context, so it's better for rapidly developing components in isolation, and then checking back on the Nuxt screen when you need it to work there.

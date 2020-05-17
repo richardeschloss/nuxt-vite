@@ -15,7 +15,7 @@ Clone this repo and in your project root, install deps:
 > npm i
 > cd vite && npm i
 
-Alternatively you can just change the commited "postinstallx" script to "postinstall". Then, it'll just be a single "npm i" run at the project root.
+Alternatively you can just change the committed "postinstallx" script to "postinstall". Then, it'll just be a single "npm i" run at the project root.
 
 B) Install deps via **yarn**:
 

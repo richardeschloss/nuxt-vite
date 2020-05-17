@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "description": "Nuxt Vite (kinda sorta)",
   "main": "index.js",
+  "private": true,
+  "workspaces": ["vite"],
   "scripts": {
     "dev": "node linkVite.js && nuxt",
     "dev:vite": "vite serve vite --port 3001",
-    "build:vite": "vite build"
+    "build:vite": "vite build",
+    "postinstallx": "cd vite && npm i"
   },
   "dependencies": {
     "nuxt": "^2.12.2"

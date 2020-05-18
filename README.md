@@ -13,6 +13,7 @@ A) Install deps via **npm**:
 Clone this repo and in your project root, install deps:
 
 > npm i
+
 > cd vite && npm i
 
 Alternatively you can just change the committed "postinstallx" script to "postinstall". Then, it'll just be a single "npm i" run at the project root.

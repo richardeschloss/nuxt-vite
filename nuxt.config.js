@@ -1,6 +1,7 @@
 module.exports = {
+  telemetry: false,
   env: {},
-  mode: 'spa',
+  ssr: true,
   /*
    ** Headers of the page
    */

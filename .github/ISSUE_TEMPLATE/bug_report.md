@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ### Version
-nuxt-highcharts: <!-- ex: 5.9.0 -->
+nuxt-vite: <!-- ex: 5.9.0 -->
 nuxt: <!-- ex: 2.0.0 -->
 
 ### Nuxt configuration
@@ -16,7 +16,7 @@ nuxt: <!-- ex: 2.0.0 -->
  - [ ] universal
  - [ ] spa
 
-### Nuxt configuration for nuxt-highcharts
+### Nuxt configuration for nuxt-vite
 <!--
     If relevant, please include the configuration you are using for this module.
     For example:

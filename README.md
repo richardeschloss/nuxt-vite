@@ -4,25 +4,12 @@
 
 ## Installation:
 
-1. Install vite *globally*. It has a CLI that is easy to use once globally installed:
+1. Clone this repo and in your project root, install deps:
+2. Install deps:
 
-> npm i -g vite
+> npm i  # or yarn
 
-2. 
-A) Install deps via **npm**: 
-Clone this repo and in your project root, install deps:
-
-> npm i
-
-> cd vite && npm i
-
-Alternatively you can just change the committed "postinstallx" script to "postinstall". Then, it'll just be a single "npm i" run at the project root.
-
-B) Install deps via **yarn**:
-
-> yarn
-
-Since yarn workspaces were set up, it's just one command.
+If using yarn, may want to disable the npm postinstall script (by changing it to "postinstallx") since yarn workspaces have been set up.
 
 ## Running:
 

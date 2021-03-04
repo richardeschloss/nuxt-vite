@@ -12,7 +12,7 @@
     "dev:nuxt": "xdg-open http://localhost:3000 && nuxt &",
     "dev:vite": "xdg-open http://localhost:3001 && vite serve vite --port 3001 &",
     "build:vite": "vite build",
-    "postinstallx": "cd vite && npm i"
+    "postinstall": "cd vite && npm i"
   },
   "dependencies": {
     "nuxt": "^2.12.2"

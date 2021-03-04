@@ -3,6 +3,6 @@ contact_links:
   - name: Nuxt Community Discord
     url: https://discord.nuxtjs.org/
     about: Consider asking questions about the module here.
-  - name: nuxt-highcharts documentation
-    url: https://github.com/richardeschloss/nuxt-highcharts
+  - name: nuxt-vite documentation
+    url: https://github.com/richardeschloss/nuxt-vite
     about: Check our documentation before reporting issues or questions.

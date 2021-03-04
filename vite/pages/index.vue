@@ -10,23 +10,30 @@
     </svg>
     <HelloWorld msg="Hello Vue 3.0 + Vite + NUXT (kinda/sorta). Holla back y'all" />
     <p>Type stuff and go nuts.</p>
-    <p>Sometimes Vite crashes. The magic fix right now seems to be:
-      Edit --> save --> repeat several times. It eventually comes back.
-      (Updates will make it better..)
-    </p>
-    <p> Nuxt is using Vue 2.6.11 </p>
-    <p> Vite is using Vue 3 </p>
-    If breaking changes are introduced, you can see right away ...just compare the two screens!
+    <br>
+    <div>
+      <p>Nuxt version <b>{{ parentDeps.nuxt }}</b></p>
+      <p>Vue version: <b>{{ dependencies.vue }}</b></p>
+      <p>Vite version: <b>{{ devDependencies.vite }}</b></p>
+    </div>
+    <p>If breaking changes are introduced, you can see right away ...just compare the two screens!</p>
   </div>
 </template>
 
 <script>
 import '../assets/index.css'
 import HelloWorld from '../components/HelloWorld.vue'
+import { dependencies, devDependencies } from '../package.json'
+import { dependencies as parentDeps } from '../../package.json'
 
 export default {
   components: {
     HelloWorld
+  },
+  data() {
+    return { 
+      dependencies, devDependencies, parentDeps
+    }
   }
 }
 </script>
